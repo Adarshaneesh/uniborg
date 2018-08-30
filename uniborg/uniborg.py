@@ -51,10 +51,10 @@ class Uniborg(TelegramClient):
         await self.start(**kwargs)
 
         # https://github.com/PaulSonOfLars/tgbot/blob/master/tg_bot/__init__.py#L104
-        self.meowner = await self.get_entity("@spechide")
+        self.meowner = await self.get_entity("@Spechide")
         await self.send_message(
             self.meowner,
-            "Hi. I am using https://github.com/SpEcHiDe/uniborg",
+            "Hi. I am using https://github.com/SpEcHiDe/uniborg 🔥",
             link_preview=False,
             silent=True
         )
